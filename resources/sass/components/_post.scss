@@ -1,0 +1,31 @@
+section.post {
+    article {
+        display: flex;
+        padding: $spacing-2 $spacing-4;
+        border-top: 1px solid $gray-500;
+        @include font-sans;
+
+        img.profile {
+            width: $spacing-12;
+            height: $spacing-12;
+            object-fit: cover;
+            margin-right: $spacing-4;
+            @include rounded-full;
+        }
+
+    }
+    div.text {
+        p.posted-by {
+            color: $white;
+            @include font-bold;
+            @include text-sm;
+            span {
+                color: $gray-300;
+                @include font-light;
+            }
+        }
+    }
+    nav.actions {
+
+    }
+}

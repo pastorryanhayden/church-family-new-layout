@@ -15,6 +15,6 @@
         @include('icons.adjustments-horizontal')
     </button>
     <button onclick="document.querySelector('.settings').classList.add('on');">
-        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="">
+        <img src="https://pbs.twimg.com/profile_images/1592882930082267138/qgnYx0Ng_400x400.jpg" alt="">
     </button>
 </header>

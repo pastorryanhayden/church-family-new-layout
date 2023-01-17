@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title> @yield('title')</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -15,10 +15,9 @@
         <div class="container">
             @include('includes.top-menus')
             <div class="content">
-
+                @yield('content')
             </div>
         </div>
-        @include('includes.bottom-menu')
-        
+        @yield('bottom-menu')
     </body>
 </html>
