@@ -1,0 +1,29 @@
+header.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gray-900;
+    border: none;
+    padding: $spacing-4;
+
+    button {
+        background: $gray-900;
+        border: none;
+        color: $gray-300;
+    }
+    button img {
+        width: $spacing-10;
+        height: $spacing-10;
+        @include rounded-full;
+        background: $gray-900;
+    }
+    button svg {
+        width: $spacing-8;
+        height: $spacing-8;
+        color: $gray-600;
+    }
+    button:hover svg {
+        color: $gray-300;
+    }
+
+}

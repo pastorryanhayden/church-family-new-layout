@@ -1,0 +1,33 @@
+div.filter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $gray-100;
+    z-index: 90;
+    padding: $spacing-24 $spacing-12 $spacing-12 $spacing-12;
+    display: none;
+    @include transition;
+
+    &.on {
+        display: block;
+    }
+
+    button.close {
+        position: absolute;
+        top: $spacing-6;
+        right: $spacing-6;
+        background: none;
+        border: none;
+        color: $gray-600;
+       width: $spacing-10;
+       height: $spacing-10;
+       z-index: 100;
+
+       svg {
+        width: $spacing-10;
+        height: $spacing-10;
+       }
+    }
+}
